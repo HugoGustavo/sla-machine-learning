@@ -1,2 +1,8 @@
-# sla-machine-learning
-SLA using Machine Learning
+# Network Management Estimating Conformance to Service Level Agreements (SLAs) using Machine Learning
+Network Management Estimating Conformance to Service Level Agreements (SLAs) using Machine Learning
+
+## Overview
+Telecom and Internet services are vital to our daily life. Such services involve large and complex software systems that increasingly run on general-purpose platforms and operating systems. For the proper function of those services, a service provider performs real-time service assurance, which ensures the service-level agreement (SLA) between the provider and a customer. In this project, we study the quality of service of a video-on-demand (VoD) service, and the SLA towards a customer is expressed as the minimum number of video frames per second on the customer terminal. The project focuses on a critical part of service assurance, namely, on the capability of a provider to estimate the service quality based on measurements on the provider’s infrastructure. The estimation uses machine-learning techniques, speciﬁcally regression and classiﬁcation.
+
+## Project Objective and Approach
+The objective of this project is to investigate SLA conformance of a video-on-demand (VoD) service using a service metric Y on the client side and device statistics X on the server side. . It consists of a client machine that is connected to a server via a network. The client accesses the VoD service that runs on the server. In this setting, device statistics refer to operating-system metrics on the server side, while service metrics Y refer to statistics on the client side. Table 1 describes the metrics X and Y used in the project.
